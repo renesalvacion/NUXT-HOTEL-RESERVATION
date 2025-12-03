@@ -21,4 +21,12 @@ logs
 # Local env files
 .env
 .env.*
+
 !.env.example
+
+
+# Ignore installer files in frontend/app/assets/images
+frontend/app/assets/images/Git-2.52.0-64-bit.exe
+frontend/app/assets/images/GitHubDesktopSetup-x64.exe
+frontend/app/assets/images/Python-3.11.14.tar.xz
+frontend/app/assets/images/dbeaver-ce-25.2.5-x86_64-setup.exe
